@@ -33,7 +33,7 @@ public class CuratorEventDemo {
         cache.getListenable().addListener((curatorFramework1, pathChildrenCacheEvent)->{
             switch (pathChildrenCacheEvent.getType()) {
                 case CHILD_ADDED:
-                    System.out.println("增加子节点");
+                    System.out.println("增加子节点------");
                     break;
                 case CHILD_REMOVED:
                     System.out.println("删除子节点");
